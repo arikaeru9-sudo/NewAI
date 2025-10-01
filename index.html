@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neural Network Simulation</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Biological Neural Network Simulation</h1>
+  <div id="dashboard">
+    <div id="stats">
+      <p>Step: <span id="step">0</span></p>
+      <p>Active Neurons: <span id="activeCount">0</span></p>
+    </div>
+    <button onclick="simulateStep()">Simulate Step</button>
+    <button onclick="resetNetwork()">Reset</button>
+  </div>
+  <canvas id="networkCanvas" width="800" height="600"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
