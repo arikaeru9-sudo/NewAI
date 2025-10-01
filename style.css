@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+#dashboard {
+  margin-bottom: 20px;
+}
+#networkCanvas {
+  border: 1px solid #333;
+  background-color: #fff;
+}
